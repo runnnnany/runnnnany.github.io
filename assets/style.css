@@ -1,0 +1,57 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: plum;
+	border-radius: 50px;
+	padding: 30px;
+}
+
+h1,p {
+	margin-bottom: 20px;
+	}
+
+li {
+	margin-left: 20px;
+	font-size: 13pt;
+	font-weight: 500;
+
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover 
+{
+ text-decoration: underline wavy red 2px;
+}
+
+.cairo {
+	color: black;
+}
+
+.luxor {
+	color: black;
+	margin-bottom: 50px;
+}
+
+.pyramid {
+	position: absolute;
+	left: 300px;
+	top: 277px;
+	border-radius: 50%;
+
+
+}

@@ -1,0 +1,66 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+
+p{
+	padding:10px;
+	
+	color: black;
+}
+
+details {
+	margin-left: 10px;
+    cursor: pointer;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+.arena-gallery {
+	padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+
+
+/* 이미지 확대 */
+
+.image-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay img {
+  width: 400px;
+  height: auto;
+
+  border-radius: 0;
+  cursor: pointer;
+}
+
+
+
